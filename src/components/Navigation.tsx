@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "Tentang", href: "#about" },
+  { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Pengalaman", href: "#experience" },
-  { label: "Kontak", href: "#contact" },
+  { label: "Experience", href: "#experience" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navigation = () => {
