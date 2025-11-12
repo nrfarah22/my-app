@@ -1,7 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -83,59 +80,6 @@ const Contact = () => {
               </Card>
             ))}
           </div>
-
-          <Card className="p-8 border-border/50">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium">
-                    Nama
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    placeholder="Nama Anda"
-                    required
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">
-                    Email
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="email@example.com"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium">
-                  Pesan
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Tulis pesan Anda di sini..."
-                  rows={6}
-                  required
-                />
-              </div>
-
-              <Button type="submit" size="lg" className="w-full gradient-hero">
-                Kirim Pesan
-              </Button>
-            </form>
-          </Card>
         </div>
       </div>
     </section>

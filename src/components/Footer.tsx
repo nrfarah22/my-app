@@ -10,14 +10,11 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold text-gradient mb-2">Portfolio</h3>
-              <p className="text-muted-foreground">
-                Membangun digital experiences yang memorable
-              </p>
             </div>
 
             <div className="flex gap-6">
               <a
-                href="https://github.com"
+                href="https://github.com/nrfarah22"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -26,7 +23,7 @@ const Footer = () => {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/farah-izzati-74a538310"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
@@ -35,7 +32,7 @@ const Footer = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="mailto:email@example.com"
+                href="mailto:raarznrzt29@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 aria-label="Email"
               >
@@ -46,7 +43,7 @@ const Footer = () => {
 
           <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
             <p className="flex items-center justify-center gap-2">
-              © {currentYear} Made with <Heart className="w-4 h-4 text-accent" /> by Your Name
+              © {currentYear} Made with <Heart className="w-4 h-4 text-accent" /> by Farah
             </p>
           </div>
         </div>

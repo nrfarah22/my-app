@@ -14,9 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 gradient-hero opacity-10" />
 
       <div className="container mx-auto px-6 py-20 relative z-10">
-        {/* Wrapper dua kolom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 animate-fade-in">
-          {/* === Kolom kiri: Teks === */}
           <div className="flex-1 text-left space-y-8">
             <div className="space-y-4">
               <p className="text-muted-foreground text-lg">Halo, saya</p>
@@ -79,10 +77,9 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* === Kolom kanan: Foto === */}
           <div className="flex-1 flex justify-center">
             <img
-              src="/images/farah.png" // ganti dengan path gambarmu
+              src="/profile.webp"
               alt="Farah Nur Izzati"
               className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover shadow-lg border border-accent/30"
             />
@@ -90,7 +87,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Tombol scroll ke bawah */}
       <button
         onClick={() => scrollToSection("about")}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-accent transition-colors animate-bounce"

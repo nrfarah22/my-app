@@ -54,9 +54,7 @@ const About = () => {
 
           <div className="mt-16 text-center">
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Dengan lebih dari X tahun pengalaman dalam industri teknologi, saya telah bekerja dengan berbagai klien 
-              dan perusahaan untuk mengembangkan aplikasi web yang inovatif dan user-friendly. Saya percaya bahwa 
-              kombinasi antara design yang baik dan code yang clean adalah kunci sukses sebuah produk digital.
+              Selama masa studi, saya aktif dalam berbagai proyek dan kegiatan laboratorium yang memperkuat kemampuan teknis serta kolaboratif.              
             </p>
           </div>
         </div>
