@@ -10,19 +10,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "email@example.com",
-    link: "mailto:email@example.com",
+    value: "raarznrzt29@gmail.com",
+    link: "mailto:raarznrzt29@gmail.com",
   },
   {
     icon: Phone,
     title: "Telepon",
-    value: "+62 812 3456 7890",
-    link: "tel:+6281234567890",
+    value: "+62 857 2744 0984",
+    link: "tel:+628572744094",
   },
   {
     icon: MapPin,
     title: "Lokasi",
-    value: "Jakarta, Indonesia",
+    value: "Bantul, DI Yogyakarta",
   },
 ];
 

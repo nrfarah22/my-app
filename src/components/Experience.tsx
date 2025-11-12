@@ -3,48 +3,37 @@ import { Card } from "@/components/ui/card";
 
 const experiences = [
   {
-    company: "Tech Company Inc.",
-    position: "Senior Full Stack Developer",
-    period: "2022 - Sekarang",
-    description: [
-      "Memimpin tim development dalam membangun aplikasi web skala enterprise",
-      "Mengimplementasikan CI/CD pipeline dan meningkatkan efisiensi deployment hingga 40%",
-      "Mentoring junior developers dan melakukan code review",
-    ],
-    tech: ["React", "Node.js", "AWS", "Docker"],
-  },
-  {
-    company: "Digital Agency Ltd.",
-    position: "Full Stack Developer",
-    period: "2020 - 2022",
-    description: [
-      "Mengembangkan website dan aplikasi untuk berbagai klien dari berbagai industri",
-      "Berkolaborasi dengan tim design untuk mengimplementasikan UI/UX yang optimal",
-      "Mengoptimasi performa website dan meningkatkan SEO score",
-    ],
-    tech: ["React", "Vue.js", "PHP", "MySQL"],
-  },
-  {
-    company: "Startup Innovation",
+    company: "Cahaya Waskitha Transport",
     position: "Frontend Developer",
-    period: "2019 - 2020",
+    period: "Mar - May 2024",
     description: [
-      "Membangun dan maintain frontend aplikasi web menggunakan React dan TypeScript",
-      "Implementasi responsive design dan cross-browser compatibility",
-      "Integrasi dengan REST API dan GraphQL",
+      "Mengimplementasikan desain menjadi halaman web yang responsif",
+      "Berkolaborasi dengan desainer UI/UX",
+      "Berkolaborasi dengan backend untuk memastikan integrasi API berjalan lanca",
     ],
-    tech: ["React", "TypeScript", "GraphQL", "Tailwind CSS"],
+    tech: ["HTML", "CSS", "Bootstrap", "Laravel"],
   },
   {
-    company: "Freelance",
-    position: "Web Developer",
-    period: "2018 - 2019",
+    company: "CV. Gama Putra Santosa",
+    position: "Game Artist",
+    period: "Sep - Dec 2024",
     description: [
-      "Mengembangkan website untuk berbagai klien lokal dan internasional",
-      "Desain dan development dari konsep hingga deployment",
-      "Maintenance dan support untuk klien existing",
+      "Membuat desain lingkungan dan aset visual sesuai dengan gaya dan tema permainan",
+      "Membuat model 2D beserta tekstur ",
+      "Berkolaborasi dengan game desainer dan developer",
     ],
-    tech: ["HTML", "CSS", "JavaScript", "WordPress"],
+    tech: ["Figma"],
+  },
+  {
+    company: "Ahmad Dahlan University",
+    position: "Lab Assist",
+    period: "2024 - 2025",
+    description: [
+      "Membimbing mahasiswa dalam pelaksanaan mata praktikum Dasar-Dasar Pemrograman, Keamanan Komputer, Rekayasa Web, Teknologi Multimedia, dan Kriptografi",
+      "Melakukan pengawasan terhadap jalannya praktikum",
+      "Berkoordinasi dengan dosen pengampu dan asisten lainnya dalam persiapan materi dan evaluasi hasil praktikum"
+    ],
+    tech: [""],
   },
 ];
 
