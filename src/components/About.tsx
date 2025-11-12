@@ -1,4 +1,4 @@
-import { Code2, Palette, Rocket, Users } from "lucide-react";
+import { Code2, ShieldCheck, Rocket, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const skills = [
@@ -8,9 +8,9 @@ const skills = [
     description: "Berpengalaman dalam React.js, Laravel, dan TypeScript, dengan fokus pada pengujian fungsionalitas dan kualitas aplikasi web modern.",
   },
   {
-    icon: Palette,
-    title: "Design",
-    description: "Mahir dalam UI/UX design dengan tools seperti Figma dan Adobe Creative Suite",
+    icon: ShieldCheck,
+    title: "Quality Assurance",
+    description: "Berpengalaman dalam menyusun test case, melakukan manual testing, serta mengidentifikasi bug untuk memastikan stabilitas dan keandalan sistem.",
   },
   {
     icon: Rocket,
