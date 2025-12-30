@@ -27,11 +27,7 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              Saya seorang QA Engineer yang passionate dalam memastikan
-              kualitas dan keandalan produk digital. Dengan pemahaman terhadap
-              pengembangan frontend dan backend, saya mampu menguji,
-              menganalisis, serta memberikan masukan untuk menciptakan
-              pengalaman pengguna yang optimal dan bebas dari bug.
+              Saya seorang Frontend Developer yang passionate dalam membangun antarmuka web yang menarik, responsif, dan mudah digunakan. Dengan pemahaman yang baik terhadap pengembangan frontend serta kolaborasi dengan backend, saya mampu menerjemahkan kebutuhan pengguna dan desain menjadi tampilan yang fungsional, optimal, dan memberikan pengalaman pengguna yang maksimal.
             </p>
 
             <div className="flex gap-4 flex-wrap">
