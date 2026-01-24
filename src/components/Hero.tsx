@@ -22,7 +22,7 @@ const Hero = () => {
                 <span className="text-gradient">Farah Nur Izzati</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-medium text-foreground/80">
-                QA Engineer
+                Frontend Developer
               </h2>
             </div>
 
